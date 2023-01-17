@@ -1,9 +1,6 @@
 {
   "name": "eloquent-poker",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-},
   "author": "TigressBailey<bailey.zhang1986@gmail.com>",
   "main": "src/index.js",
   "dependencies": {
