@@ -119,7 +119,7 @@ function Main(props) {
   }
 
   const roomTitle = roomName[0].toUpperCase() + roomName.slice(1);
-  roomURL = `https://eloquentpoker.com/?room=${roomName}&type=${typeValue}`;
+  roomURL = `https://` + window.location.hostname +`/?room=${roomName}&type=${typeValue}`;
 
   const pointsItems = voteTypes[typeValue].map(storyPoint => (
     <StoryPoint
